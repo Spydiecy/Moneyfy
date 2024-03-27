@@ -50,7 +50,14 @@ const AddExpenseForm = (props) => {
             class="form-control"
             id="cost"
             value={cost}
-            onChange={(event) => setCost(event.target.value)}
+            onChange={(event) => {
+              const value = event.target.value;
+              if (value >= 0) {
+                setCost(value);
+              } else {
+                window.alert('Cost cannot be negative');
+              }
+            }}
           />
         </div>
       </div>

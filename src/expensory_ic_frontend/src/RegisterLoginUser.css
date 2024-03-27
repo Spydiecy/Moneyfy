@@ -109,5 +109,25 @@ p {
     text-align: center;
   }
 
+  .error {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .success {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
 
  

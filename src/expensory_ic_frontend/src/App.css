@@ -23,7 +23,7 @@
   }
 
   .logo-and-text h1 {
-    background: linear-gradient( #f9f944, #ff74ff);
+    background: linear-gradient( #007dfe, #ff74ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -52,14 +52,30 @@
     width: 75px;
     position: absolute;
     bottom: 0;
-    right: 0;
     z-index: 2;
+    right: 0;
     margin-bottom: 50px;
     margin-right: 100px;
     transform: translate(50%, 50%);
   }
 
-
+  .logout-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 100px;
+  }
+  
+  .logout-button:hover {
+    background-color: #da190b;
+    color: white;
+  }
 
  .chart-col {
   display: flex;
@@ -89,6 +105,19 @@
     padding-right: 30px;
 }
 
+.nav-button {
+  background-color: #fff; /* Change this to your preferred color */
+  border: none;
+  color: black;
+  padding: 12px 24px; /* Adjust this to change the size of the button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
 /* Stars Animation */
 

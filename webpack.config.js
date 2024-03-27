@@ -46,6 +46,7 @@ module.exports = {
   // tutorial, uncomment the following lines:
   module: {
     rules: [
+      { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
       { test: /\.(ts|tsx|jsx)$/, loader: "ts-loader" },
       { test: /\.css$/, use: ["style-loader", "css-loader"] },
       {
